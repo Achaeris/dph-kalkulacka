@@ -19,12 +19,12 @@ Požadavky: Python 3.12+ (testováno na 3.14)
 
 ### Windows
 ```bash
-python dph_kalkulacka_v3_xx.pyw
+python dph_kalkulacka.pyw
 ```
 
 ### macOS / Linux
 ```bash
-python3 dph_kalkulacka_v3_xx.pyw
+python3 dph_kalkulacka.pyw
 ```
 
 **Poznámka pro Linux:** pokud chybí Tkinter, doinstaluj balík `python3-tk`  
@@ -34,7 +34,7 @@ python3 dph_kalkulacka_v3_xx.pyw
 ## Build do EXE (Windows)
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --noconsole dph_kalkulacka_v3_xx.pyw
+pyinstaller --onefile --noconsole dph_kalkulacka.pyw
 ```
 
 Výstup je ve složce `dist/`.
